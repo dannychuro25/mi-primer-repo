@@ -1,0 +1,22 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Proyecto Git</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #333; }
+        .container { max-width: 600px; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola desde Git!</h1>
+        <p>Este es mi primer proyecto usando Git en Mac.</p>
+        <p>Fecha de creación: $(date)</p>
+    </div>
+</body>
+</html>
+EOF
